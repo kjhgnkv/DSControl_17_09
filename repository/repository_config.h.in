@@ -1,0 +1,4 @@
+#pragma once
+
+#define REPOSITORY_PATH "${REPOSITORY_PATH}"
+

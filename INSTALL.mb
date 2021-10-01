@@ -1,0 +1,33 @@
+1. Установить mosquitto.
+> https://mosquitto.org/download/
+1.1. После установки mosquitto, добавить 2 строчки в файл "mosquitto.conf" по пути "C:\Program Files\mosquitto":
+> listener 1883
+> allow_anonymous true
+1.2. После этого, ребут компа.
+1.3. Так же советуется отключить "Межсетевой экран".
+
+2. Установить Visual Studio Community
+> https://visualstudio.microsoft.com/
+2.1. Установить C++
+
+3. Скачать macchina
+> https://github.com/macchina-io/macchina.io/releases/tag/macchina-0.11.0-release
+>> WINDOWS
+    3.1. Собрать библиотеки в папке platform
+    - CppParser
+    - CppUnit
+    - Foundation
+    - JSON
+    - Net
+    - OSP
+    - Util
+    - XML
+    - Zip
+    3.2. Собираем либы как дебаг и релиз версии
+    3.3. Скинуть все [d].dll в папку bin и скинуть все [d].lib в папку lib
+    3.4. Скинуть со всех папок include/Poco в папку include (верзний уровень)
+
+>> LINUX
+    3.1. Установить python 2.7
+    3.2. Установить OpenSSL
+    3.3. Собирать через make и выполнить потом make install
